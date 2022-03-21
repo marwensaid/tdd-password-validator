@@ -1,16 +1,15 @@
 package kata;
 
-import static java.util.Arrays.asList;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
-
 import kata.Validator.DigitValidator;
 import kata.Validator.LengthValidator;
 import kata.Validator.LetterValidator;
 import kata.Validator.SpecialCharValidator;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import static java.util.Arrays.asList;
 
 public class Password {
     private List<Validator> userValidators = asList(
